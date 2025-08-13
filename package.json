@@ -1,0 +1,25 @@
+{
+  "name": "bms-stagehand",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@browserbasehq/stagehand": "^2.4.2",
+    "dotenv": "^16.4.5",
+    "zod": "^3.25.76"
+  }
+}
